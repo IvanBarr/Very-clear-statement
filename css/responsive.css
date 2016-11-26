@@ -1,0 +1,183 @@
+@media only screen and (max-width: 768px){
+  .logo{
+    padding-top: 30px;
+    padding-bottom: 50px;
+  }
+
+  .form-bg{
+    width: 50%;
+  }
+
+  header{
+    height: 22%;
+  }
+
+  input[type="button"]{
+    margin-top: 10px;
+  }
+
+  .b-imgs{
+    width: 100%;
+    padding-top: 0;
+    padding-bottom: 5%;
+  }
+
+  .text{
+    width: 100%;
+    text-align: center;
+    float: none;
+  }
+
+  .first-benefit , .second-benefit{
+    display: inline-block;
+  }
+
+  .first-benefit{
+    padding-left: 10%;
+    float: left;
+  }
+
+  .second-benefit{
+    float: right;
+    padding-right: 10%;
+  }
+
+  .text h2{
+    padding-right: 25px;
+    padding-left: 20px;
+  }
+
+  .text p{
+    padding-left: 25px;
+  }
+
+  ul{
+    float: right;
+    padding-right: 30px;
+  }
+  .person{
+    width: 40%;
+    padding-left: 15px;
+    padding-top: 110px;
+  }
+
+  .faq h3{
+    padding-top: 50px;
+  }
+
+ .text1{
+   padding-left: 18px;
+   max-width: 320px;
+ }
+
+ .text2{
+   padding-right: 18px;
+ }
+
+ .extra-padding-rs{
+   padding-top: 60px;
+ }
+
+.box1{
+  width: 100%;
+  float: none;
+  text-align: center;
+}
+
+.box2{
+  float: none;
+}
+
+.box1 h2{
+  padding-top: 40px;
+  font-size: 2.125em;
+  color: #3f3f3f;
+}
+
+.box2 img{
+  padding-top: 40px;
+}
+
+.logos{
+  padding-bottom: 15px;
+}
+
+.slogan h2{
+  padding-top: 50px;
+}
+
+footer{
+  padding-top: 25px;
+}
+footer p{
+  padding-bottom: 20px;
+}
+}
+
+/*For iPhone Portrait Only*/
+
+@media only screen and (max-width: 375px){
+
+  header{
+    height: 18%;
+  }
+
+  header h1{
+    padding-bottom: 30px;
+    font-size: 2em;
+  }
+  .logo{
+    padding-bottom: 55px;
+  }
+
+  header p{
+    /*padding-left: 5px;
+    padding-right: 5px;*/
+    display: none;
+  }
+
+  .form-bg{
+    width: 90%;
+    height: 48%;
+  }
+
+  .form-bg h3{
+    padding-top: 10px;
+  }
+
+  .arrow{
+    padding-top: 25px;
+  }
+
+  .width-fix{
+    text-align: center;
+    float: none;
+  }
+
+  .text p{
+    padding-left: 0;
+    padding-left: 8px;
+    padding-right: 8px;
+    text-align: center;
+  }
+
+  .first-benefit{
+    padding-left: 70px;
+    padding-bottom: 20px;
+  }
+
+  .second-benefit{
+    float: none;
+    padding-left: 70px;
+  }
+
+  .person{
+    width: 90%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .features h3{
+    padding-top: 20px;
+  }
+}
